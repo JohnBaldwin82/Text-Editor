@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "Text-Editor",
   "version": "1.0.0",
   "engines:": {
     "node": "14.17.3",
@@ -20,7 +20,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "workbox-webpack-plugin": "^7.0.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
